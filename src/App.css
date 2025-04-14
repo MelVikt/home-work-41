@@ -1,0 +1,44 @@
+.form-section {
+  border: 2px solid #ccc;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 300px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #e9e7e7;;
+}
+
+form label {
+  display: block;
+  margin-block: 10px;
+}
+
+input[type="text"], select{
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-block: 10px;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+.error {
+  color: red;
+}
+
+.country-details {
+  background-color: bisque;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
